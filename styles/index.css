@@ -17,6 +17,7 @@
 }
 
 body {
+	width: 100%;
 	margin: 0;
 	background-color: #e5e5e5;
 }
@@ -26,13 +27,15 @@ body {
 .header {
 	display: flex;
 	justify-content: space-between;
-	width: 1248px;
+	max-width: 1248px;
 	margin: auto;
 	padding-top: 30px;
+	flex-wrap: wrap;
 }
 
 .containerLogoMenu {
 	display: flex;
+	flex-wrap: wrap;
 }
 
 .header--logo {
@@ -47,6 +50,7 @@ body {
 
 .header ul {
 	display: flex;
+	flex-wrap: wrap;
 }
 
 .header li {
@@ -102,7 +106,7 @@ body {
 }
 
 .mainsection--container {
-	width: 380px;
+	max-width: 380px;
 }
 
 .mainsection--details {
@@ -248,6 +252,7 @@ body {
 	margin: 40px 0;
 	font-family: Avenir-Regular, sans-serif;
 	font-size: 24px;
+	font-weight: 400;
 	line-height: 130%;
 }
 
@@ -255,6 +260,8 @@ body {
 	font-size: 16px;
 	line-height: 160%;
 	font-family: Avenir-Regular, sans-serif;
+	font-weight: 200;
+
 	width: 232px;
 	margin: 40px 0;
 }
@@ -264,6 +271,7 @@ body {
 	font-size: 16px;
 	font-family: Avenir-Bold, sans-serif;
 	color: #212353;
+	font-weight: 800;
 }
 
 .features--rightrow__learnarrow {
@@ -426,7 +434,7 @@ footer {
 }
 
 .footer--container__logo {
-	margin: auto;
+	margin-right: 20px;
 	width: 45px;
 	height: 45px;
 }
@@ -479,4 +487,113 @@ footer {
 .footer--bottomRight__container img {
 	width: 50px;
 	height: 50px;
+}
+
+/* -------------- Breakpoints - Mediasqueris ---------------- */
+
+@media screen and (max-width: 1024px) {
+	.mainsection {
+		max-width: 1024px;
+		margin: auto;
+		background-image: url("../images/image1-1.png");
+		background-size: 585px 350px;
+		background-repeat: no-repeat;
+		background-position: 150% end;
+		object-fit: fill;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.mainsection {
+		max-width: 1248px;
+		max-width: 730px;
+		margin: auto;
+		background-image: url("../images/image1-1.png");
+		background-size: 485px 268px;
+		background-repeat: no-repeat;
+		background-position: center 90%;
+		object-fit: fill;
+		text-align: center;
+	}
+
+	.mainsection--container {
+		max-width: 380px;
+		align-self: center;
+		display: inline;
+	}
+
+	.secondsection {
+		background: rgba(240, 99, 184, 0.15);
+		border-radius: 50px;
+		display: flex;
+		flex-direction: column-reverse;
+		max-width: 700px;
+		height: 900px;
+		margin: auto;
+	}
+
+	.secondsection--leftrow {
+		display: flex;
+		justify-content: center;
+	}
+
+	.featuressection {
+		max-width: 700px;
+		height: 1750px;
+		margin: 150px auto;
+	}
+
+	.features--list {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.testimonialssection {
+		margin: auto;
+		width: 700px;
+		height: 709px;
+		padding: 30px;
+	}
+
+	.footer--top {
+		max-width: 700px;
+		margin: auto;
+	}
+
+	.footer--top__right {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.footer--top__bottom {
+		margin: 10px 0;
+	}
+
+	.footer--bottom {
+		display: flex;
+		justify-content: space-between;
+		margin: 153px auto;
+		width: 700px;
+	}
+
+	.footer--bottomRight {
+		display: flex;
+		justify-content: space-between;
+		width: 350px;
+	}
+
+	.footer--bottomRight__container {
+		max-width: 90px;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		flex-direction: column;
+	}
+}
+
+@media screen and (max-width: 480px) {
+}
+
+@media screen and (max-width: 320px) {
 }
