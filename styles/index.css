@@ -17,6 +17,7 @@
 }
 
 body {
+	margin: 0;
 	background-color: #e5e5e5;
 }
 
@@ -121,25 +122,6 @@ body {
 	font-size: 18px;
 	color: white;
 }
-
-/* .mainsectionRight {
-	width: 885px;
-	height: 468px;
-	background-color: red;
-	background-image: url("../images/image1-1.png");
-	background-repeat: no-repeat;
-	background-position: right;
-	object-fit: none;
-	border: 1px solid black;
-} */
-
-/* .mainsectionRight--image {
-	position: absolute;
-	width: 885px;
-	height: 468px;
-	left: 450px;
-	top: 240px;
-} */
 
 /* -------------- SecondSection ---------------- */
 
@@ -370,17 +352,18 @@ body {
 /* -------------- Footer ---------------- */
 
 footer {
-	width: 1118px;
+	width: 100%;
 	height: 613px;
-	margin: 150px auto;
-	border: 1px solid red;
+	padding: 100px 0;
+	margin-top: 150px;
+	border-top: 1px solid #9c69e2;
 }
 
 .footer--top {
 	display: flex;
 	justify-content: space-between;
 	width: 1118px;
-	border: 1px solid red;
+	margin: auto;
 }
 
 .footer--top__title {
@@ -427,4 +410,73 @@ footer {
 	font-family: Avenir-Regular, sans-serif;
 	font-size: 18px;
 	line-height: 160%;
+}
+
+.footer--bottom {
+	display: flex;
+	justify-content: space-between;
+	margin: 153px auto;
+	width: 1118px;
+}
+
+.footer--container {
+	display: flex;
+	align-items: center;
+	margin-bottom: 67px;
+}
+
+.footer--container__logo {
+	margin: auto;
+	width: 45px;
+	height: 45px;
+}
+
+.footer--container__title {
+	font-weight: 900;
+	font-size: 20px;
+	line-height: 160%;
+	font-family: Avenir-Regular, sans-serif;
+	margin: 0px;
+}
+
+.footer--container__address {
+	font-family: Avenir-Regular, sans-serif;
+	font-size: 16px;
+	line-height: 180%;
+}
+
+.footer--container__email {
+	font-family: Avenir-Light, sans-serif;
+	font-size: 16px;
+	line-height: 180%;
+}
+
+.footer--bottomRight {
+	display: flex;
+	justify-content: space-around;
+	width: 680px;
+}
+
+.footer--bottomRight__title {
+	font-family: Avenir-Regular, sans-serif;
+	font-size: 16px;
+	line-height: 180%;
+	margin-bottom: 67px;
+}
+
+.footer--bottomRight__item {
+	font-family: Avenir-Light, sans-serif;
+	font-size: 16px;
+	line-height: 180%;
+}
+
+.footer--bottomRight__container {
+	display: flex;
+	justify-content: space-between;
+	width: 170px;
+}
+
+.footer--bottomRight__container img {
+	width: 50px;
+	height: 50px;
 }
