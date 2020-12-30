@@ -84,13 +84,14 @@ body {
 /* -------------- MainSection ---------------- */
 
 .mainsection {
-	display: flex;
 	width: 1248px;
 	height: 730px;
 	margin: auto;
-}
-
-.mainsectionLeft {
+	background-image: url("../images/image1-1.png");
+	background-size: 885px 468px;
+	background-repeat: no-repeat;
+	background-position: right center;
+	object-fit: fill;
 }
 
 .mainsection--title {
@@ -100,7 +101,7 @@ body {
 }
 
 .mainsection--container {
-	width: 400px;
+	width: 380px;
 }
 
 .mainsection--details {
@@ -121,13 +122,24 @@ body {
 	color: white;
 }
 
-.mainsectionRight--image {
+/* .mainsectionRight {
+	width: 885px;
+	height: 468px;
+	background-color: red;
+	background-image: url("../images/image1-1.png");
+	background-repeat: no-repeat;
+	background-position: right;
+	object-fit: none;
+	border: 1px solid black;
+} */
+
+/* .mainsectionRight--image {
 	position: absolute;
 	width: 885px;
 	height: 468px;
 	left: 450px;
 	top: 240px;
-}
+} */
 
 /* -------------- SecondSection ---------------- */
 
