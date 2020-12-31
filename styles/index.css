@@ -63,12 +63,14 @@ body {
 	display: flex;
 	align-items: center;
 	font-size: 16px;
+	line-height: 160%;
 	font-family: Avenir-Regular, sans-serif;
 	color: #212353;
+	padding: 10px;
 }
 
 .header--menu a:hover {
-	font-weight: bold;
+	font-weight: 800;
 }
 
 .header--bottom {
@@ -79,6 +81,8 @@ body {
 	border-radius: 50px;
 	border: none;
 	font-family: Avenir-Regular, sans-serif;
+	font-size: 16px;
+	line-height: 160%;
 }
 
 .header--bottom img {
@@ -306,6 +310,11 @@ body {
 	overflow: scroll;
 	padding: 30px;
 	position: relative;
+	background: linear-gradient(
+		270deg,
+		rgba(255, 255, 255, 0) 1.75%,
+		#9c69e2 100%
+	);
 }
 
 .carousel--item {
@@ -355,6 +364,28 @@ body {
 	font-size: 16px;
 	line-height: 200%;
 	font-family: Avenir-Light, sans-serif;
+}
+
+.carousel--simbols {
+	padding: 0 30px;
+
+	display: flex;
+	justify-content: space-between;
+}
+
+.carousel--dots img {
+	width: 50px;
+	height: 50px;
+}
+
+.footer--bottomRight__container img {
+	width: 50px;
+	height: 50px;
+}
+
+.carousel--arrows img {
+	width: 35px;
+	margin: 0 0 -8px 12px;
 }
 
 /* -------------- Footer ---------------- */
@@ -482,11 +513,6 @@ footer {
 	display: flex;
 	justify-content: space-between;
 	width: 170px;
-}
-
-.footer--bottomRight__container img {
-	width: 50px;
-	height: 50px;
 }
 
 /* -------------- Breakpoints - Mediasqueris ---------------- */
