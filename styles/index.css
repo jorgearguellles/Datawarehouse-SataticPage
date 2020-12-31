@@ -505,7 +505,6 @@ footer {
 
 @media screen and (max-width: 768px) {
 	.mainsection {
-		max-width: 1248px;
 		max-width: 730px;
 		margin: auto;
 		background-image: url("../images/image1-1.png");
