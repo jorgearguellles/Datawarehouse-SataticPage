@@ -310,11 +310,6 @@ body {
 	overflow: scroll;
 	padding: 30px;
 	position: relative;
-	background: linear-gradient(
-		270deg,
-		rgba(255, 255, 255, 0) 1.75%,
-		#9c69e2 100%
-	);
 }
 
 .carousel--item {
