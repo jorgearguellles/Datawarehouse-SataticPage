@@ -1,4 +1,4 @@
-# Data WareHouse - Sattic Page
+# Data WareHouse - Static Page
 
 Esta página estática es un ejercisio de maquetación con HTML y CSS
 
@@ -11,8 +11,8 @@ Esta página estática es un ejercisio de maquetación con HTML y CSS
 
 Esta hecha con :green_heart: y:
 
+- [Estrcutura con HTML](https://developer.mozilla.org/es/docs/Web/HTML)
 - [Estilos con CSS](https://developer.mozilla.org/es/docs/Web/CSS)
-- [Componentes y lógica en Vanilla JavaScript](https://es.reactjs.org)
 - [Desplegada en GitHub Pages](https://pages.github.com)
 
 ## Exploralá
@@ -21,7 +21,12 @@ Esta hecha con :green_heart: y:
 
 ## Vista
 
-![App Screenshot](https://github.com/jorgearguellles/spa_RickAndMorty_API/blob/main/public/img/screenshot.png)
+![App Screenshot](https://github.com/jorgearguellles/Datawarehouse-SataticPage/blob/gh-pages/images/1.png)
+![App Screenshot](https://github.com/jorgearguellles/Datawarehouse-SataticPage/blob/gh-pages/images/2.png)
+![App Screenshot](https://github.com/jorgearguellles/Datawarehouse-SataticPage/blob/gh-pages/images/3.png)
+![App Screenshot](https://github.com/jorgearguellles/Datawarehouse-SataticPage/blob/gh-pages/images/4.png)
+![App Screenshot](https://github.com/jorgearguellles/Datawarehouse-SataticPage/blob/gh-pages/images/5.png)
+![App Screenshot](https://github.com/jorgearguellles/Datawarehouse-SataticPage/blob/gh-pages/images/6.png)
 
 ## Retroalimentación
 
